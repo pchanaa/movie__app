@@ -7,7 +7,7 @@ import Navigation from "./components/Navigation"
 //<Route/> => Important Props : 1.The screen to render, 2.What to do
 const App =()=>{
   return( 
-  <BrowserRouter>
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Navigation />
         <Route path="/about" exact={true} component={ About }/> 
         <Route path="/" exact={true} component={ Home }/>
