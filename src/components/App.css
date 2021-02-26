@@ -1,6 +1,6 @@
 body{
   margin:0;
-  margin-top:35px;
+  margin-top:25px;
   padding:0;
   margin-left:5px;
   background-color: #eff3f7;
@@ -25,7 +25,7 @@ body,
   font-weight: 700;
   font-size:45px;
   position:relative;
-  top: 375px;
+  top: 315px;
   right:-28px;
   
 }
@@ -38,6 +38,7 @@ body,
   
 }
 .movies .in_movies{
+  height:260px;
   margin-bottom: 70px;;
   width:45%;
   background-color: white;
@@ -46,18 +47,31 @@ body,
   justify-content: space-between;
   padding:10px;
   margin-top:15px;
-  border-radius: 5%;
-  
+  width: 700px;
+  margin-right:100px;
+  box-shadow: 0 30px 70px -12px rgba(50,50,93,0.25), 0 18px 36px -18px rgba(0,0, 0, 0.3),
+  0 -12px 36px -8px rgba(0,0,0,0.025);
 
 }
-.movies:nth-child(1){
+.in_movies{
+  margin:none;
+}
+.movies a {
+  margin-top:10px;
+  width :500px;
+  margin-right:100px;
+  margin-bottom:15px;
+ text-decoration: none;
+ color:black;
+}
+.movies a:visited{
+  color:black;
+}
+
+.movies:nth-child(odd){
   position :relative;
+  
   left:-60px;
-}
-
-.in_movies:nth-child(even){
-  position: relative;
-  right:-80px;
 }
 
 
@@ -69,9 +83,9 @@ body,
   width:100%;
   margin-right :30px;
   margin-left:10px;
-  box-shadow: 0 30px 60px -12px rgba(50,50,93,0.25), 0 18px 36px -18px rgba(0,0, 0, 0.3),
-  0 -12px 36px -8px rgba(0,0,0,0.025);
+ 
 }
+
 .contents .mov_title{
   font-size : 30px;
   margin-top:10px;
@@ -79,3 +93,5 @@ body,
 .contents .mov_year, .genre_Contents, .mov_summary{
   color:#718093;
 }
+
+

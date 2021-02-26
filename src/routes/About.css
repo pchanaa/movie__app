@@ -1,0 +1,15 @@
+.container2 {
+  position: relative;
+  top: 100px;
+  width: 500px;
+  background-color: white;
+  padding: 10px;
+  box-shadow: 0 20px 7px -10px rgba(50, 50, 93, 0.25);
+}
+.container2 .value {
+  text-align: center;
+  padding-top: 7px;
+  padding-bottom: 12px;
+  font-weight: 700;
+  font-size: 50px;
+}

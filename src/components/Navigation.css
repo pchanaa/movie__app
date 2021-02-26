@@ -1,0 +1,25 @@
+.nav {
+  text-align: center;
+  padding-bottom: 40px;
+  margin-left: 7px;
+}
+
+.link1,
+.link2 {
+  padding: 20px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  color: blue;
+  font-weight: bold;
+}
+.span {
+  padding-top: 15px;
+  height: 40px;
+  display: inline-block;
+  background: white;
+  -moz-border-radius: 10px;
+
+  -webkit-border-radius: 10px;
+
+  border-radius: 10px;
+}
